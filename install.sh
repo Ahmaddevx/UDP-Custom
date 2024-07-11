@@ -54,8 +54,8 @@ if [ "$(lsb_release -rs)" = "8*|9*|10*|11*|16.04*|18.04*" ]; then
 else
   clear
   echo ""
-  print_center -ama "A Compatible OS/Environment Found"
-  print_center -ama " ⇢ Installation begins...! <"
+  print_center -ama "OS/Lingkungan yang Kompatibel Ditemukan"
+  print_center -ama " ⇢ Instalasi dimulai...! <"
   sleep 3
 
     # [change timezone to UTC +0]
