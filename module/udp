@@ -786,9 +786,10 @@ tweak_udp_speed() {
   clear
   echo ""
   msg -bar
-  echo "$(msg -verm2 "${a3:-  A RISK TO YOUR SYSTEM}")"
-  echo "$(msg -verm2 "${a8:-  ⇢ ... this may or may-not work,}")"
-  echo "$(msg -verm2 "${a8:-    depending on your OS Image!}")"
+  echo "$(msg -verm2 "${a3:-  
+RISIKO TERHADAP SISTEM ANDA}")"
+  echo "$(msg -verm2 "${a8:-  ⇢ ... Ini mungkin berhasil atau mungkin tidak,}")"
+  echo "$(msg -verm2 "${a8:-    Tergantung pada OS Anda!}")"
   sleep 2
   echo "$(msg -verm2 "${a8:-  ⇢ patching...}")"
   sleep 2
