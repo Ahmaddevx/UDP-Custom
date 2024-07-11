@@ -61,8 +61,8 @@ else
     # [change timezone to UTC +0]
   echo ""
   echo " ⇢ Change timezone to UTC +0"
-  echo " ⇢ for Jakarta/Accra [GH] GMT +7:00"
-  ln -fs /usr/share/zoneinfo/Jakarta/Accra /etc/localtime
+  echo " ⇢ for Jakarta/Palangka-Raya [GH] GMT +7:00"
+  ln -fs /usr/share/zoneinfo/Jakarta/Palangka-Raya /etc/localtime
   sleep 3
 
   # [+clean up+]
