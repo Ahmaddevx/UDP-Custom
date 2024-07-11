@@ -46,8 +46,8 @@ time_reboot() {
 if [ "$(lsb_release -rs)" = "8*|9*|10*|11*|16.04*|18.04*" ]; then
   clear
   print_center -ama -e "\e[1m\e[31m=====================================================\e[0m"
-  print_center -ama -e "\e[1m\e[33m${a94:-this script is not compatible with your operating system}\e[0m"
-  print_center -ama -e "\e[1m\e[33m ${a95:-Use Ubuntu 20 or higher}\e[0m"
+  print_center -ama -e "\e[1m\e[33m${a94:-Skrip ini tidak kompatibel dengan sistem operasi Anda}\e[0m"
+  print_center -ama -e "\e[1m\e[33m ${a95:-Gunakan Ubuntu 20 atau lebih tinggi}\e[0m"
   print_center -ama -e "\e[1m\e[31m=====================================================\e[0m"
   rm /home/ubuntu/install.sh
   exit 1
